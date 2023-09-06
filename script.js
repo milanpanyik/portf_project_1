@@ -3,7 +3,7 @@
 let generateRandomNumber = (num) => {
     return Math.floor(Math.random() * num);
 };
-// pipa
+
 // to store completed 
 let complete = [];
 // arrays to select from
@@ -31,8 +31,7 @@ let selectAnswer = () => {
         console.log('not good, no no');
     }
 };
-//complete.push(selectAnswer());
-//console.log(complete);
+
 
 //finishing up
 
